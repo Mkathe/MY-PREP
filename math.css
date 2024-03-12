@@ -1,0 +1,64 @@
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #b18e8e;
+    overflow-y: auto;
+    max-height: 500px ;
+    position: sticky;
+  }
+  
+ header li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 0px;
+    border-bottom: 5px solid #000000;
+  }
+  
+  /* Change the link color on hover */
+  header li a:hover {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+  } 
+  .text-quo {
+    vertical-align: top;
+    flex-grow: 1; /* Растягиваем текст на всю доступную ширину */
+    color: rgb(75, 25, 25);
+    position: relative;
+    bottom: 100px; /* Перемещение текста вверх на 10 пикселей */
+    margin-right: 150px;
+    margin-left: 10px;
+    left: 120px;
+  }
+
+  bold {
+    border-radius: 10%;
+  width: 5px;
+  height: 5px;
+  display: table;
+  padding: 1px;
+  margin-top: 1px;
+  background: #42a146;
+  border: 2px solid #666;
+  color: #ffffff;
+  text-align: center;
+  font: 15px Arial, sans-serif;
+  }
+  
+
+  table, th, td {
+    border: 2px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    margin: -50px 200px 20px 0;
+  }
+  th, td {
+    background-color: #96D4D4;
+    
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+  }

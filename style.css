@@ -1,0 +1,85 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 150px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #441111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+
+footer {
+  display: block;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 100%;
+  border-top: 1px solid white;
+}
+
+.email{
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+
+.address {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #bcc3e6, #9daae7); /* Красивый градиент */
+  
+}
+
+p {
+  font-family: GeoEditRegular,Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Helvetica,Arial,sans-serif;
+}
+hr {
+  border:none; 
+  border-top: 3px double #333;
+   color: #333; 
+   overflow:visible;
+    text-align:center;
+     height:5px;
+}
+hr::after {
+  background: #fff;
+  content: "Next";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+  font-family: ITS Bodoni Seventy-Two Book Italic;
+  background-color: #04AA6D;
+}
